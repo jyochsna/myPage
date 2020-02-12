@@ -1,0 +1,62 @@
+body{
+    background: url(../images/bg.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background--size: cover;
+    background-size: cover;
+    padding-top: 50px;
+}
+.page-content{
+    padding: 40px 15px;
+}
+.row{
+    margin-bottom: 1.5em;
+
+}
+
+
+.welcome,
+    h1 , p {
+        text-align: center;
+        font-weight: 200;
+        color:black;
+        
+    }
+    
+       
+
+
+ 
+.carousel-item{
+    width: 1200px;
+    height: 300px;
+    align-items: center;
+} 
+
+.thumbnail{
+    width: 450px;
+    height: 450px;
+} 
+
+
+#auth-image {
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+  }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    /* padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc; */
+    text-align: center;
+    background: rgb(108, 108, 134);
+    border-top: 8px solid cornflowerblue;
+    height: 50px;
+  }
