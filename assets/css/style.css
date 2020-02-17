@@ -112,6 +112,9 @@ footer{
     background: #4aaaa5;
     border: 0 none;
   }
+  #work{
+    margin-bottom: 20px;
+  }
 
   /*for flip card*/
   .portfolio{
@@ -120,6 +123,7 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 20px;
+   row-gap: 70px;
   }
   
 
@@ -155,6 +159,7 @@ footer{
   .flip-card-front {
     background-color: #bbb;
     color: black;
+   
   }
   
   .flip-card-back {
