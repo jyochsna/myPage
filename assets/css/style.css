@@ -21,19 +21,7 @@ body{
   height:100px;
   align-items: center;
 }
-.fa {
-  padding: 2px;
-  font-size: 10px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
 
 .welcome {
   text-align: center;
@@ -57,6 +45,8 @@ body{
   text-align: center;
   padding:10px;
 }
+
+
 /* .welcome,
     h1 , p {
         text-align: center;
@@ -71,12 +61,12 @@ body{
  
 
 
-
+/* 
 #auth-image {
     max-width: 200px;
     float: left;
     margin: 10px;
-  }
+  } */
 
 footer{
     position: fixed;
@@ -192,7 +182,13 @@ footer{
   }
   p{
     color: black;
+    padding:20px;
+    margin: 20px ;
+    font-family: 'Raleway', sans-serif;
   }
+  /* #link{
+    margin-bottom: 10px;
+  } */
 /* 
 .two {
   background-image: url(../images/background.jpg);
