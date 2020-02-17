@@ -14,11 +14,32 @@ body{
     margin-bottom: 1.5em;
 
 }
+.auth-image{
+  border-radius: 50%;
+ 
+  width:100px;
+  height:100px;
+  align-items: center;
+}
+.fa {
+  padding: 2px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 .welcome {
   text-align: center;
+  margin-top: 10px;
   margin-left: 150px;
-  padding: 0 20px;
+  padding: 10 20px;
 }
 
 .card {
@@ -29,10 +50,12 @@ body{
   font-weight: 200;
   margin-top: 20px;
   margin-left: 150px;
-  background-color:aliceblue;
+  background-color:rgb(202, 221, 245);
+  border-radius: 50px;
 }
-p{
+#details{
   text-align: center;
+  padding:10px;
 }
 /* .welcome,
     h1 , p {
