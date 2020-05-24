@@ -182,9 +182,16 @@ footer{
   }
   p{
     color: black;
-    padding:20px;
+    /* padding:20px; */
     margin: 20px ;
     font-family: 'Raleway', sans-serif;
+  }
+
+  .fab{
+    color: black;
+  }
+  .fas{
+    color:black;
   }
   /* #link{
     margin-bottom: 10px;
